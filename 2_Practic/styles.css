@@ -1,0 +1,22 @@
+.page {
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1310px;
+    margin: 65px auto;
+}
+h1 {
+    margin: 50px auto;
+    font-size: 50px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+ul {
+    margin: 50px auto;
+}
+h2 {
+    margin: 50px 0 50px;
+    font-size: 40px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
