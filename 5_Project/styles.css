@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    position: fixed;
+    z-index: 1;
+
+    width: 100%;
+    height: 140px;
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    
+    color: #e50043;
+    background-color: #ffffff;
+    font-size: 50px;
+    font-family: Arial;
+    font-style: normal;
+}
+
+.brand,
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links > li {
+    margin-right: 25px;
+    display: inline;
+}
+
+.links > li:last-of-type {
+    margin-right: 0px;
+}
+
+a:link,
+a:visited {
+    color: #e50043;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hero-block {
+    height: 950px;
+    width: 100%;
+    
+    background-image: url(../5_Project/images/evian_origins_logo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 140px;
+}
+
+.header {
+    position: relative;
+    top: 140px;
+    height: 950px;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    text-align: center;
+
+    color: #e50043;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 100px;
+    line-height: 115px;    
+}
+
+.description {
+    padding: 24px;
+    text-align: justify;
+}
+
+.description,
+.composition {    
+    margin: 150px 200px 150px 200px;
+
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+
+    color: #000000;
+    background-color: #ffffff;
+    font-family: 'Arial';
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+}
+
+.photo-container {
+    margin: 0 200px 0 200px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #000000;
+    font-family: 'Arial';
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-wang,
+.photo-blue,
+.photo-chiara {
+    padding-bottom: 42px;
+}
+
+.composition {
+    padding: 30px 30px 30px 0;
+}
+
+.photo-glass {
+    padding: 0 80px 0 80px;
+}
+
+.footer {
+    padding: 50px;
+    height: 140px;
+
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+    background-color: #f8bfc7;
+    font-size: 50px;
+    font-family: Arial;
+}
