@@ -52,7 +52,7 @@ a:hover {
     width: 100%;
     
     background-image: url(../5_Project/images/evian_origins_logo.png);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 140px;
@@ -77,6 +77,13 @@ a:hover {
     line-height: 115px;    
 }
 
+.main-container {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
 .description {
     padding: 24px;
     text-align: justify;
@@ -84,8 +91,6 @@ a:hover {
 
 .description,
 .composition {    
-    margin: 150px 200px 150px 200px;
-
     position: relative;
     
     display: flex;
@@ -103,8 +108,8 @@ a:hover {
 }
 
 .photo-container {
-    margin: 0 200px 0 200px;
-    
+    margin: 150px 0 150px 0;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
