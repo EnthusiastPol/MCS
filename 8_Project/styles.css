@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #336fd1;
+    font-family: "Helvetica";
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    margin-bottom: 90px;
+    color: #000000;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 90px;
+    padding: 0 50px 0 50px;
+    background-color: #f8bfc7;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation a:link,
+.navigation a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.links > li {
+    margin-right: 30px;
+    display: inline;
+    list-style: none;
+}
+
+.links:last-of-type {
+    margin-right: 0px;
+}
+
+.menu {
+    list-style: none;
+}
+
+article {
+    margin-top: 90px;
+    width: 100%;
+    height: 643px;
+    
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+
+.empty {
+    font-size: 0;
+}
+
+.container {
+    margin-top: 90px;
+    margin-left: 90px;
+    width: 300px;
+    padding: 30px;
+    justify-content: center;
+    
+    color: #ffffff;
+    background: #F8BFC7;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+}
+
+.container > p {
+    margin-bottom: 16px;
+}
+
+input, input:focus, textarea:focus {
+    height: 23px;
+    width: 240px;
+    border: none;
+    outline: none;
+    
+    color: #FFFFFF;
+    background-color: transparent;
+    
+    font-size: 20px;
+    line-height: 23px;
+    font-family: "Times New Roman";
+    font-weight: 100;
+}
+
+.line {
+    margin-bottom: 16px;
+    border: 0.5px solid #ffffff;
+}
+.line:last-of-type {
+    margin-bottom: 0;
+}
+
+button {
+    margin-left: 140px;
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+
+    font-family: 'Helvetica';
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+
+    background: #FEB700;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+}
+
+.tagline {
+    margin: 30px 0 114px 0;
+    display: flex;
+    justify-content: center;
+
+    color: #feb700;
+    
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 57px;
+    }
+
+footer {
+    color: #ffffff;
+}

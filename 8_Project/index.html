@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект 8</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navigation">
+            <ul class="links">
+                <li><a href="#">посылки</a></li>
+                <li><a href="#">упаковка</a></li>
+                <li><a href="#">подписка</a></li>
+            </ul>
+            <ul class="menu">
+                <li><a href="#">меню</a></li>
+            </ul>    
+        </nav>
+    </header>
+
+    <article>
+        <div class="empty">это просто пустой элемент, без этого элемента не работает margin-top у формы клиента</div>
+        <form action="https://formspree.io/f/xdovnnqn" method="post" class="client-form">
+            <div class="container">
+                <p>Имя</p>
+                <input type="text" name="full-name" id="full-name">
+                <div class="line"></div>
+                
+                <p>Город</p>
+                <input type="text" name="city" id="city">
+                <div class="line"></div>
+                
+                <p>Подарок</p>
+                <input type="text" name="present" id="presnet">
+                <div class="line"></div>
+                
+                <p>Электронная почта</p>
+                <input type="email" name="email" id="email">
+                <div class="line"></div>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+        </article>
+    
+    <p class="tagline">ваша посылка ужу в пути!</p>
+    
+    <footer>
+        <p>секретные посылки для друзей</p>
+        <p>© <time datetime="2022">2022</time></p>
+    </footer>
+</body>
+</html>
